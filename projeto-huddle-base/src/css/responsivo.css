@@ -1,0 +1,48 @@
+@media (max-width: 480px) {
+  body {
+    height: auto;
+    display: block;
+    width: auto;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .container .painel {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }
+  .container h1 {
+    display: block;
+    margin: 10px 0;
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .container p {
+    display: block;
+    margin: 10px 0;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .botton {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+}
